@@ -302,8 +302,8 @@ button {
 }
 
 .profile-img {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: var(--radius-full);
   border: 4px solid var(--color-primary-500);
   margin: 0 auto;
