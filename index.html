@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bijay Khanal - Machine Learning Engineer & Data Scientist</title>
+    <meta name="description" content="Machine Learning Engineer and Data Scientist specializing in LLMs, Computer Vision, and Deep Learning. Currently pursuing M.Sc. in Computer Engineering with Data Science specialization.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%236366F1'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z'/%3E%3C/svg%3E">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navigation">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#hero" class="brand-link">BK</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <!-- Dark Mode Toggle -->
+                <button class="dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"/>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M9.528 1.718a.75.75 0 01.162.819A8.97 8.97 0 009 6a9 9 0 009 9 8.97 8.97 0 003.463-.69.75.75 0 01.981.98 10.503 10.503 0 01-9.694 6.46c-5.799 0-10.5-4.701-10.5-10.5 0-4.368 2.667-8.112 6.46-9.694a.75.75 0 01.818.162z"/>
+                    </svg>
+                </button>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <img src="imgs/bijay.jpg" alt="Bijay Khanal - Machine Learning Engineer" class="profile-img">
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Bijay Khanal</span>
+                    </h1>
+                    <p class="hero-tagline">Machine Learning Engineer & Data Scientist</p>
+                    <p class="hero-subtitle">Specializing in LLMs, Computer Vision & Deep Learning</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator" id="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about fade-in-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-description">
+                            Currently pursuing <strong>M.Sc. Computer Engineering with Data Science Specialization</strong> at Pulchowk Campus, I am a passionate Machine Learning Engineer and Data Scientist with expertise in building intelligent systems that solve real-world problems.
+                        </p>
+                        <p class="about-description">
+                            With experience as an <strong>LLM Expert, Competitive Coder, and Data Analyst</strong>, I specialize in developing advanced AI solutions including document retrieval systems, computer vision applications, and autonomous navigation systems. My background in Electronics & Communications Engineering provides a strong foundation for IoT and embedded systems development.
+                        </p>
+                        <p class="about-description">
+                            I am driven by the intersection of <strong>research and practical application</strong>, focusing on making cutting-edge machine learning technologies accessible and impactful for businesses and society.
+                        </p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <h3>Current Focus</h3>
+                            <ul>
+                                <li>Large Language Models (LLMs) & RAG Systems</li>
+                                <li>Advanced Computer Vision & Deep Learning</li>
+                                <li>Autonomous Systems & Robotics (SLAM)</li>
+                                <li>IoT & Edge AI Implementation</li>
+                            </ul>
+                        </div>
+                        <div class="highlight-card">
+                            <h3>Research Interests</h3>
+                            <ul>
+                                <li>Natural Language Processing & Generation</li>
+                                <li>3D Computer Vision & Reconstruction</li>
+                                <li>Autonomous Navigation & Mapping</li>
+                                <li>Distributed AI Systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education fade-in-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                </div>
+                <div class="education-list">
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c0 0.6 0.4 1 1 1h11c0.6 0 1-0.4 1-1v-5"/>
+                            </svg>
+                        </div>
+                        <div class="education-content">
+                            <h3 class="education-degree">M.Sc. Computer Engineering</h3>
+                            <p class="education-specialization">Data Science Specialization</p>
+                            <p class="education-institution">Pulchowk Campus</p>
+                            <p class="education-duration">2024 - Present</p>
+                            <p class="education-description">Pursuing advanced studies in machine learning algorithms, deep learning architectures, and data science methodologies with focus on practical applications.</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c0 0.6 0.4 1 1 1h11c0.6 0 1-0.4 1-1v-5"/>
+                            </svg>
+                        </div>
+                        <div class="education-content">
+                            <h3 class="education-degree">B.E. Electronics & Communications</h3>
+                            <p class="education-institution">Thapathali Campus</p>
+                            <p class="education-duration">2015 - 2019</p>
+                            <p class="education-description">Comprehensive foundation in electronics engineering, signal processing, communication systems, and embedded systems design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills fade-in-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">ML/DS Stack</h3>
+                        <div class="skill-badges">
+                            <span class="badge badge-primary">Python</span>
+                            <span class="badge badge-primary">PyTorch</span>
+                            <span class="badge badge-primary">TensorFlow</span>
+                            <span class="badge badge-primary">Keras</span>
+                            <span class="badge badge-primary">Scikit-Learn</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">LLM/NLP</h3>
+                        <div class="skill-badges">
+                            <span class="badge badge-primary">RAG Systems</span>
+                            <span class="badge badge-primary">Document Retrieval</span>
+                            <span class="badge badge-primary">Chatbots</span>
+                            <span class="badge badge-primary">NLP</span>
+                            <span class="badge badge-secondary">Hugging Face</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Computer Vision</h3>
+                        <div class="skill-badges">
+                            <span class="badge badge-primary">OpenCV</span>
+                            <span class="badge badge-primary">Face Recognition</span>
+                            <span class="badge badge-primary">Object Detection</span>
+                            <span class="badge badge-primary">SLAM</span>
+                            <span class="badge badge-secondary">YOLO</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">IoT/Embedded</h3>
+                        <div class="skill-badges">
+                            <span class="badge badge-secondary">C</span>
+                            <span class="badge badge-secondary">C++</span>
+                            <span class="badge badge-secondary">ROS</span>
+                            <span class="badge badge-secondary">Arduino</span>
+                            <span class="badge badge-secondary">ESP32</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Tools & Platforms</h3>
+                        <div class="skill-badges">
+                            <span class="badge badge-secondary">Jupyter</span>
+                            <span class="badge badge-secondary">Git</span>
+                            <span class="badge badge-secondary">Docker</span>
+                            <span class="badge badge-secondary">Linux</span>
+                            <span class="badge badge-secondary">AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects fade-in-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Showcasing my expertise in Machine Learning and Data Science</p>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card featured">
+                        <div class="project-image">
+                            <img src="imgs/llm-rag-system.webp" alt="Advanced LLM/RAG Systems illustration" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Advanced LLM/RAG Systems</h3>
+                            <p class="project-description">
+                                Developed sophisticated document retrieval and chatbot systems using advanced RAG (Retrieval-Augmented Generation) techniques. Implemented vector databases, semantic search, and multi-document conversation capabilities with optimized performance for real-time applications.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">LangChain</span>
+                                <span class="tag">Vector DBs</span>
+                                <span class="tag">NLP</span>
+                                <span class="tag">RAG</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/KhanalBijay" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/face-recognition.webp" alt="Face Recognition System illustration" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Real-time Face Recognition System</h3>
+                            <p class="project-description">
+                                Implemented high-performance face recognition system with real-time detection capabilities. Optimized for ARM processors with edge computing deployment, achieving sub-100ms inference time while maintaining 99%+ accuracy across diverse lighting conditions.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Computer Vision</span>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">Deep Learning</span>
+                                <span class="tag">ARM Optimization</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/KhanalBijay" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/slam-navigation.webp" alt="SLAM Navigation System illustration" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Autonomous SLAM Navigation</h3>
+                            <p class="project-description">
+                                Developed comprehensive Simultaneous Localization and Mapping (SLAM) system for autonomous navigation using ROS framework. Integrated LiDAR, IMU, and camera sensors for robust mapping in complex environments with dynamic obstacle avoidance.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">ROS</span>
+                                <span class="tag">SLAM</span>
+                                <span class="tag">Robotics</span>
+                                <span class="tag">Sensor Fusion</span>
+                                <span class="tag">LiDAR</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/KhanalBijay" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/iot-smart-home.webp" alt="IoT Smart Home System illustration" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">IoT Smart Home System</h3>
+                            <p class="project-description">
+                                Built comprehensive smart home automation system with sensor monitoring, video streaming, and intelligent control capabilities. Integrated multiple sensor types, real-time data processing, and mobile dashboard for remote monitoring and control.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">IoT</span>
+                                <span class="tag">ESP32</span>
+                                <span class="tag">Sensors</span>
+                                <span class="tag">Real-time Data</span>
+                                <span class="tag">Dashboard</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/KhanalBijay" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="imgs/3d-reconstruction.webp" alt="3D Reconstruction System illustration" class="project-img">
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">3D Reconstruction with RGBD Imaging</h3>
+                            <p class="project-description">
+                                Implemented advanced 3D reconstruction system using Azure Kinect RGBD sensors. Developed point cloud processing, mesh generation, and surface reconstruction algorithms for precise 3D modeling applications in robotics and computer vision.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">3D Vision</span>
+                                <span class="tag">Azure Kinect</span>
+                                <span class="tag">Point Clouds</span>
+                                <span class="tag">Depth Processing</span>
+                                <span class="tag">Mesh Generation</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/KhanalBijay" class="project-link" target="_blank" rel="noopener">View on GitHub</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience fade-in-up">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience</h2>
+                </div>
+                
+                <div class="experience-content">
+                    <!-- Timeline -->
+                    <div class="experience-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 class="experience-role">LLM Expert, Competitive Coder & Data Analyst</h3>
+                                <p class="experience-company">Upwork (Freelance)</p>
+                                <p class="experience-duration">2023 - Present</p>
+                                <p class="experience-description">
+                                    Specializing in Large Language Model implementation, competitive programming solutions, and advanced data analysis projects. Delivered cutting-edge AI solutions for diverse client requirements across multiple industries.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h3 class="experience-role">IoT & Computer Vision Engineer</h3>
+                                <p class="experience-company">Ekbana Solutions</p>
+                                <p class="experience-duration">2019 - 2023</p>
+                                <p class="experience-description">
+                                    Developed innovative IoT solutions and computer vision applications. Led projects in smart home automation, industrial monitoring systems, and embedded AI deployment on resource-constrained devices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- GitHub Stats -->
+                    <div class="github-stats">
+                        <h3 class="stats-title">GitHub Statistics</h3>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-number">12</div>
+                                <div class="stat-label">Repositories</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">17</div>
+                                <div class="stat-label">Stars Earned</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number">2</div>
+                                <div class="stat-label">Achievements</div>
+                            </div>
+                        </div>
+                        <div class="achievements">
+                            <div class="achievement-badge">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <span>Pull Shark</span>
+                            </div>
+                            <div class="achievement-badge">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                                </svg>
+                                <span>Pair Extraordinaire</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact fade-in-up">
+            <div class="container">
+                <div class="contact-card">
+                    <div class="section-header">
+                        <h2 class="section-title">Let's Collaborate</h2>
+                        <p class="section-subtitle">Ready to work on your next ML/DS project?</p>
+                    </div>
+                    
+                    <div class="contact-content">
+                        <p class="contact-description">
+                            I'm always interested in discussing new opportunities, research collaborations, and innovative AI projects. Let's connect and explore how we can work together to solve complex technical challenges.
+                        </p>
+                        
+                        <div class="contact-actions">
+                            <a href="/cdn-cgi/l/email-protection#afccc0c1dbceccdbefcdc6c5c4c7cec1cec381ccc0c2" class="btn btn-primary">Email Me</a>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://github.com/KhanalBijay" class="social-link" target="_blank" rel="noopener" aria-label="GitHub Profile">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                                </svg>
+                                <span>GitHub</span>
+                            </a>
+                            
+                            <a href="https://www.linkedin.com/in/khanal-bijay/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn Profile">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                                </svg>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2024 Bijay Khanal. Built with passion for Machine Learning and Data Science.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/main.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"998ba12878d07f55","serverTiming":{"name":{"cfExtPri":true,"cfEdge":true,"cfOrigin":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.9.1","token":"e72945439c264b3b85d2e3b689102d27"}' crossorigin="anonymous"></script>
+</body>
+</html>
