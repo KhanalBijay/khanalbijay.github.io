@@ -47,7 +47,9 @@
   --line-height-relaxed: 1.6;
   
   /* Spacing (4pt Grid System) */
+  --space-1: 4px;
   --space-2: 8px;
+  --space-3: 12px;
   --space-4: 16px;
   --space-6: 24px;
   --space-8: 32px;
@@ -596,11 +598,16 @@ section {
 
 .skills-grid {
   display: grid;
-  gap: var(--space-8);
+  gap: var(--space-6);
+  grid-template-columns: 1fr;
 }
 
 .skill-category {
   text-align: center;
+  padding: var(--space-6);
+  background: var(--color-bg-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
 }
 
 .skill-category-title {
@@ -613,7 +620,7 @@ section {
 .skill-badges {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-3) var(--space-4);
+  gap: var(--space-2);
   justify-content: center;
 }
 
