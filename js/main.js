@@ -18,13 +18,19 @@
     init();
 
     function init() {
+        // Render content from data first
+        if (window.portfolioData && window.TemplateRenderer) {
+            window.TemplateRenderer.renderAll(window.portfolioData);
+        }
+        
         setupEventListeners();
         setupIntersectionObserver();
         updateActiveSection();
         initDarkMode();
         
         // Add fade-in classes to sections
-        sections.forEach(section => {
+        const allSections = document.querySelectorAll('section[id]');
+        allSections.forEach(section => {
             section.classList.add('fade-in-up');
         });
     }
