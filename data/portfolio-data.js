@@ -20,17 +20,14 @@ const portfolioData = {
           title: "Current Focus",
           items: [
             "Large Language Models (LLMs) & RAG Systems",
-            "Advanced Computer Vision & Deep Learning",
-            "Autonomous Systems & Robotics (SLAM)",
-            "IoT & Edge AI Implementation"
+            "Advanced Computer Vision & Deep Learning"
           ]
         },
         {
           title: "Research Interests",
           items: [
             "Natural Language Processing & Generation",
-            "3D Computer Vision & Reconstruction",
-            "Autonomous Navigation & Mapping",
+            "Computer Vision & 3D Reconstruction",
             "Distributed AI Systems"
           ]
         }
