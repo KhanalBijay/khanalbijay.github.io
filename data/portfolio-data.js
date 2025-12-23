@@ -120,7 +120,7 @@ const portfolioData = {
       description: "Developed sophisticated document retrieval and chatbot systems using advanced RAG (Retrieval-Augmented Generation) techniques. Implemented vector databases, semantic search, and multi-document conversation capabilities with optimized performance for real-time applications.",
       image: "imgs/llm-rag-system.webp",
       tags: ["Python", "LangChain", "Vector DBs", "NLP", "RAG"],
-      link: "https://github.com/KhanalBijay",
+      link: "https://huggingface.co/spaces/Bijay13/Pdf-RAG-Chatbot",
       featured: true
     },
     {
@@ -128,7 +128,7 @@ const portfolioData = {
       description: "End-to-end implementation of fine-tuning OpenAI's Whisper model for Nepali speech recognition. Features custom dataset processing, optimized training pipeline, and production-ready deployment on Hugging Face Spaces for real-time transcription.",
       image: "imgs/whisper-finetune.webp",
       tags: ["Whisper", "PyTorch", "ASR", "Hugging Face", "Deployment"],
-      link: "https://huggingface.co/Bijay13",
+      link: "https://huggingface.co/spaces/Bijay13/Whisper-medium-ne-en",
       featured: true
     },
     {
